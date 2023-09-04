@@ -1,0 +1,38 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px ;
+    position: relative;
+    left: 550px;
+    top: 100px;
+    padding-bottom: 7px;
+    background-color: #efe4e4;
+}
+input{
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    /* background-color: chocolate; */
+}
+form p{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: rgb(1, 11, 20);
+}
+form h1{
+    color: rgb(2, 6, 10);
+    font-size: 35px;
+    font-weight: 700;
+}
+.btn{
+    margin-top: 20px;
+}
+body{
+    background-color: #d59999;
+}
