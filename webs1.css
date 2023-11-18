@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* flex-wrap: wrap; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    /* border-bottom: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.navbar .one1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.navbar .one1 h2{
+   font-size: 30px;
+   color: #004e98;
+}
+.navbar .two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-right: 140px;
+   
+}
+a:hover{
+    color: rgb(30, 121, 121);
+}
+.f1-sec{
+    margin-top: 70px;
+    height: 720px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #004e98;
+    align-items: center;
+    column-gap: 90px;
+}
+.f1 img{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+}
+.f2 h1{
+    /* color: #004e98; */
+    color: white;
+    font-size: 40px;
+    font-weight: 450;
+    margin-bottom: 40px;
+}
+.f2 p{
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 28px;
+    color: white; 
+}
+
+.f1-sec button{
+    margin-top: 60px;
+    color: white;
+    background-color: rgb(59, 241, 59);
+    padding: 12px 42px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.HONE{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+.f2-sec{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.f2one img{
+    border-radius: 10px;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    
+}
+
+.f2one img:hover{
+    transition: all;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* padding-bottom: 30px; */
+    transform-style: preserve-3d;
+
+}
+.f2two h3{
+    font-size: 25px;   
+}
+.f2two p{
+    font-size: 16px;
+   
+    line-height: 23px;
+    padding-top: 20px;
+}
+.f2two button{
+    padding: 10px 30px;
+    border-radius: 6px;
+    color: aliceblue;
+    margin-top: 30px;
+    background-color: #004e98;
+}
+.f2two button a{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+.f3-sec{
+    height: 600px;
+    margin-top: 40px;
+    /* border: 2px solid black; */
+    /* background-color: #e9e9e9; */
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.f3-sec h1 span{
+    margin-bottom: 70px;
+    font-size: 40px;
+    color: #004e98;
+}
+.f3-sec h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.f3-sec p {
+    padding-bottom: 60px;
+    font-size: 17px;
+    line-height: 26px;
+}
+.f3-sec button{
+    padding: 12px 100px;
+    border-radius: 7px;
+    background-color: #004e98;
+    margin-left: 90px;
+}
+.f4-sec{
+    height: 600px;
+    margin-top: 40px;
+    /* border: 2px solid black; */
+    /* background-color: #e9e9e9; */
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.f4-sec .f3-two{
+    padding-left: 100px;
+}
+.f4-sec .f3-one{
+    padding-right: 70px;
+}
+.f4-sec h1 span{
+    margin-bottom: 70px;
+    font-size: 40px;
+    color: #004e98;
+}
+.f4-sec h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.f4-sec p {
+    padding-bottom: 60px;
+    font-size: 17px;
+    line-height: 26px;
+}
+.f4-sec button{
+    padding: 12px 100px;
+    border-radius: 7px;
+    background-color: #004e98;
+    margin-left: 90px;
+}
